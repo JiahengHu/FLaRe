@@ -74,7 +74,7 @@ compress_json
 phonemizer
 
 -e git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33#egg=clip
-torch==2.0.1
+torch==2.5.1
 torchvision
 xformers
 lightning
