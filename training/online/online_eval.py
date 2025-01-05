@@ -39,7 +39,7 @@ def parse_args():
     )
     parser.add_argument("--training_tag", type=str)
     parser.add_argument("--wandb_project_name", type=str, default="local")
-    parser.add_argument("--wandb_entity_name", type=str, default="poliformer")
+    parser.add_argument("--wandb_entity_name", type=str, default="flare")
     parser.add_argument("--ckpt_path", default="/net/nfs2.prior/checkpoints/")
     parser.add_argument("--max_eps_len", default=-1, type=int)
     parser.add_argument("--eval_set_size", default=None, type=int)

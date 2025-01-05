@@ -27,7 +27,7 @@ export DOCKER_IMAGE=khzeng777/spoc-rl:v2
 docker run \
     --gpus all \
     --device /dev/dri \
-    --mount type=bind,source=${CODE_PATH},target=/root/poliformer \
+    --mount type=bind,source=${CODE_PATH},target=/root/spoc \
     --mount type=bind,source=${DATA_PATH},target=/root/data \
     --shm-size 50G \
     -it ${DOCKER_IMAGE}:latest
